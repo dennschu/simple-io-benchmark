@@ -4,13 +4,12 @@
 
 - [Phoronix Test Suite Cheat Sheet](https://gist.github.com/anshula/728a76297e4a4ee7688d)
 - [APFS VS HFS+: BENCHMARKS ON 2017 MACBOOK PRO WITH MACOS HIGH SIERRA](https://malcont.net/2017/09/apfs-vs-hfs-benchmarks-on-2017-macbook-pro-with-macos-high-sierra/)
-- `time tree -L 3 /Volumes/elbworx`
+- `time tree -L 3 [location]`
 
 
-## Tests
-
+## Run Benchmarks
 
 
 ```sh
-time tree -L 3 /Volumes/elbworx > /dev/null
+./benchmark.sh /tmp > /tmp/result.log
 ```
